@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <h2 style="text-align: center">Welcome reader!</h2>
 
 ![image](img/me.jpg)
@@ -17,7 +18,9 @@ document, package and distribute your software...
 
 This website holds not only my professional information but different articles
 on orbital mechanics, programming and different interesting projects that
-reader may find useful for daily tasks.
+reader may find useful for daily tasks. Since this site is still under building
+process, some links may not be working as expected. I hope everything to be
+ready soon!
 
 <p style="text-align: center">
 If you find any errata or just want to publish an article, please contact me at
@@ -25,6 +28,3 @@ If you find any errata or just want to publish an article, please contact me at
 </p>
 
 <h2 style="text-align: left">Scientific notices</h2>
-
-
-
