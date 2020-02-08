@@ -5,6 +5,7 @@
 
 body { 
     background-image: url('../img/body.png');
+    text-align: justify;
  }
 .readmore {
 	margin-right: 5px;
