@@ -3,8 +3,11 @@
  * noise background from (http://www.noisetexturegenerator.com/)
  */
 
+@import 'highlight.css';
+
 body { 
     background-image: url('../img/body.png');
+    text-align: justify;
  }
 .readmore {
 	margin-right: 5px;
