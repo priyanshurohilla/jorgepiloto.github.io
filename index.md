@@ -22,9 +22,6 @@ reader may find useful for daily tasks. Since this site is still under building
 process, some links may not be working as expected. I hope everything to be
 ready soon!
 
-<p style="text-align: center">
 If you find any errata or just want to publish an article, please contact me at
 <a style="color:magenta" href="mailto:jorge@on-dev.com">jorge@on-orbit.dev</a>
-</p>
 
-<h2 style="text-align: left">Scientific notices</h2>
