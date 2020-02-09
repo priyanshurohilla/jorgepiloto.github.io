@@ -10,7 +10,7 @@ tags: [notice, orbital_mechanics]
 author: Jorge M.G.
 ---
 
-![image](img/moon.png)
+![image]({{site.url}}/img/moon.png)
 
 Some days ago I bought a domain under the name of __"on-orbit.dev"__. The main
 reason behind this action was to have a more professional e-mail nickname but
