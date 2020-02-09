@@ -2,9 +2,9 @@
 layout: post
 title:  "Why this website?"
 date:   2020-02-09
-categories: personal
+categories: orbital-mechanics
 permalink: template-post
-tags: opinion
+tags: [notice, orbital_mechanics]
 
 # author
 author: Jorge M.G.
