@@ -10,7 +10,7 @@ tags: [notice, orbital_mechanics]
 author: Jorge M.G.
 ---
 
-![image]({{site.url}}/img/moon.png)
+<img class="imgleft" src="{{site.url}}/img/moon.png" align="left" style="width:250px">
 
 Some days ago I bought a domain under the name of __"on-orbit.dev"__. The main
 reason behind this action was to have a more professional e-mail nickname but
@@ -44,6 +44,8 @@ program helloworld
 print *,'Hello World'
 end program helloworld
 ```
+* Item 1
+* Item 2
 
 Please, if you know other people who could be interested on reading this
 website content, share it with them! See you around here 😊

@@ -5,7 +5,7 @@ layout: default
 
 <h2 style="text-align: center">Welcome reader!</h2>
 
-![image](img/me.jpg)
+<img class="imgleft" src="{{site.url}}/img/me.jpg" style="width:200px">
 
 My name is Jorge M.G. and I am an undergraduate aerospace engineering student
 really interested in scientific computing with applications on the orbital
