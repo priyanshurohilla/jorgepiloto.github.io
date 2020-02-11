@@ -84,10 +84,16 @@ a:focus, a:hover {
     background-color: #fff;
     border-color: #adadad;
 }
-img {
+.imgleft {
     vertical-align: middle;
     float: left;
     padding-right: 10px;
+    padding-bottom: 5px;
+}
+.imgright{
+    vertical-align: middle;
+    float: right;
+    padding-left: 10px;
     padding-bottom: 5px;
 }
 .title-image {
