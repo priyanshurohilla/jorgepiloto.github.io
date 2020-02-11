@@ -10,7 +10,7 @@ tags: [notice, orbital_mechanics]
 author: Jorge M.G.
 ---
 
-<img class="imgleft" src="{{site.url}}/img/moon.png" align="left" style="width:250px">
+<img class="imgleft" src="{{site.url}}/img/moon.png" align="left" style="width:275px">
 
 Some days ago I bought a domain under the name of __"on-orbit.dev"__. The main
 reason behind this action was to have a more professional e-mail nickname but
@@ -31,21 +31,5 @@ much information as I can. Of course, if you are interested on contributing,
 you can always open a pull-request on the official
 [repository](https://www.github.com/jorgepiloto/jorgepiloto.github.io).
 
-Oh! Since this site is sci-computing oriented, we have highlighting code snippets:
-
-A simple `Hello world!` script in Python:
-```python
-print("Hello world!")
-```
-
-The same program in Fortran:
-```fortran
-program helloworld
-print *,'Hello World'
-end program helloworld
-```
-* Item 1
-* Item 2
-
 Please, if you know other people who could be interested on reading this
-website content, share it with them! See you around here 😊
+website content, share it with them! See you around here!
