@@ -19,3 +19,4 @@ links may not be working as expected. I hope everything to be ready soon!
 
 If you find any errata or just want to publish an article, please contact me at
 <a style="color:magenta" href="mailto:jorge@on-dev.com">jorge@on-orbit.dev</a>.
+<hr class="striped-border">
