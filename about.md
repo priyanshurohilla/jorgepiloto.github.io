@@ -6,10 +6,9 @@ layout: categories_list
 
 <img class="imgleft" src="{{site.url}}/img/me_about.jpeg" style="width:250px">
 
-My name is Jorge Martínez Garrido and I am an undergraduate aerospace engineer
-from [Universidad Carlos III of Madrid](https://www.uc3m.es/Home). After
-starting my degree I became interested in scientific computing applied to the
-aerospace world, in particular to the orbital mechanics field.
+My name is Jorge Martínez Garrido and I am an undergraduate aerospace engineer.
+After starting my degree I became interested in scientific computing applied to
+the aerospace world, in particular to the orbital mechanics field.
 
 However, my programming skills by those days were limited to Matlab till I
 decided to learn Python. Today, this is my favourite programming language from
