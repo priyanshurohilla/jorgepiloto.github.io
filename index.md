@@ -6,7 +6,7 @@ permalink: /
 
 # Welcome reader
 
-MY name is Jorge M.G., I am an undergraduate aerospace engineering student
+My name is Jorge M.G., I am an undergraduate aerospace engineering student
 really interested in scientific computing with applications on the orbital
 mechanics field. Contributing to open-source projects has been my main source
 of information during the last years. I have learned lots of tools and good
@@ -38,3 +38,14 @@ content related to computer science, engineering and orbital mechanics.
     reports is completely free. During the last years, I have been making use
     of this tool for downloading old papers on Kepler's and Lambert's
     algorithms together with atmospherical modelling.
+
+```c
+
+#include <stdio.h>
+
+int main( void ) {
+    /* This is just simple comment in C language */
+    printf("Hello World!\n");
+    return 0;
+}
+```
