@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Home 🏠
 layout: home
 permalink: /
 ---
@@ -32,3 +32,9 @@ content related to computer science, engineering and orbital mechanics.
     *I am toatlly against authors who publish their content witout including a
     free-reading link of their article. Science might be linked to bussiness
     but should not be a bussiness itself.*
+
+- **NASA Technical Report Server:** it is an amazing web where you can find not
+    only actual and altest internal NASA papers but also old ones. Access to
+    reports is completely free. During the last years, I have been making use
+    of this tool for downloading old papers on Kepler's and Lambert's
+    algorithms together with atmospherical modelling.
