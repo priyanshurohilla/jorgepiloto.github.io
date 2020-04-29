@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{{ content }}
+{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
+
+{%- if site.posts.size > 0 -%}
+  <ul>
+    {%- for post in site.categories.c_programming -%}
+
+
+    <img class="imgleft" src="{{site.url}}/resources/images/{{ post.thumbnail }}" style="width:150px">
+    <li>
+        <a href="{{ post.url | relative_url }}">📝 {{ post.title | escape }}</a>
+    </li>
+
+    <br>
+      
+    {{ post.resume }}
+    {%- endfor -%}
+  </ul>
+{%- endif -%}

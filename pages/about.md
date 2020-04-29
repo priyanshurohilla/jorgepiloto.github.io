@@ -1,6 +1,6 @@
 ---
 title: About me 🤓
-layout: home
+layout: page
 permalink: about
 ---
 
