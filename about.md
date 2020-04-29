@@ -15,8 +15,9 @@ the aerospace world, in particular to the orbital mechanics field.
 However, my programming skills by those days were limited to Matlab till I
 decided to learn Python. Today, this is my favourite programming language from
 far: it is simple, intuitive, fast and the most important; open-source! Many of
-the projects I contribute or build are coded in this language or highly related
-to it.
+the projects I contribute are coded in this language or highly related to it.
+During the last months I been coding also in C. My objective is to extend Python
+with this fast and powerful programming language.
 
 After some months, I just discovered the
 [poliastro](https://www.github.com/poliastro/poliastro). This discovery
