@@ -20,7 +20,7 @@ find useful for daily tasks.
 If you find any errata, want to publish something or just want to contac me,
 please senfd me an plain text email to jorge@on-orbit.dev.
 
-# Interesting links
+## Interesting links
 
 In this section you will find a set of links to other blogs, websites or web
 content related to computer science, engineering and orbital mechanics.
@@ -33,19 +33,9 @@ content related to computer science, engineering and orbital mechanics.
     free-reading link of their article. Science might be linked to bussiness
     but should not be a bussiness itself.*
 
-- **NASA Technical Report Server:** it is an amazing web where you can find not
+* **NASA Technical Report Server:** it is an amazing web where you can find not
     only actual and altest internal NASA papers but also old ones. Access to
     reports is completely free. During the last years, I have been making use
     of this tool for downloading old papers on Kepler's and Lambert's
     algorithms together with atmospherical modelling.
 
-```c
-
-#include <stdio.h>
-
-int main( void ) {
-    /* This is just simple comment in C language */
-    printf("Hello World!\n");
-    return 0;
-}
-```
