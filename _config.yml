@@ -4,7 +4,8 @@
 
 header_pages:
   - index.md
-  - about.md
+  - pages/c_programming.md
+  - pages/about.md
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
