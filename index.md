@@ -6,6 +6,8 @@ permalink: /
 
 # Welcome reader
 
+<img class="imgleft" src="{{site.url}}/resources/images/author.jpeg" style="width:150px">
+
 My name is Jorge M.G., I am an undergraduate aerospace engineering student
 really interested in scientific computing with applications on the orbital
 mechanics field. Contributing to open-source projects has been my main source
@@ -25,15 +27,17 @@ please senfd me an plain text email to jorge@on-orbit.dev.
 In this section you will find a set of links to other blogs, websites or web
 content related to computer science, engineering and orbital mechanics.
 
-- **Celestial mechanics and dynamics astronomy journal:** this is probably the
+<img class="imgright" src="{{site.url}}/resources/images/celestial_mechanics.jpg" style="width:75px">
+**- Celestial mechanics and dynamics astronomy journal:** this is probably the
     most famous journal about orbital mechanics. The problem is that you
     require either to be subscribed to the journal or have access granted
     because or University or other institution in order to read the articles.
-    *I am toatlly against authors who publish their content witout including a
+    *I am toatlly against authors who publish their content without including a
     free-reading link of their article. Science might be linked to bussiness
-    but should not be a bussiness itself.*
+    but should not be a bussiness itself.* If you would like to know more about
+    my opinion on free article readings, please check [this post](#TODO).
 
-* **NASA Technical Report Server:** it is an amazing web where you can find not
+**- NASA Technical Report Server:** it is an amazing web where you can find not
     only actual and altest internal NASA papers but also old ones. Access to
     reports is completely free. During the last years, I have been making use
     of this tool for downloading old papers on Kepler's and Lambert's
