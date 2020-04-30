@@ -1,23 +1,209 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-{{ content }}
-{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
+body {
+  font-family: "Courier New";
+  padding: 10px;
+  background: white;
+  background-image: url('../resources/images/background.png');
+  text-align: justify;
+}
 
-{%- if site.posts.size > 0 -%}
-  <ul>
+/* Header/Blog Title */
+.header {
+  color: black;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+   margin-bottom: 30px; /* between paragraphs */
+}
+
+/**
+ * Images
+ */
+.imgleft {clear: right; float: left; margin: 0px 20px 15px 0; }
+.imgright {clear: left; float: right; margin: 0px 0px 15px 20px; }
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 4px solid black;
+  border-top: 4px solid black;
+  border-style: solid;
+  background-color: #777;
+}
+
+/* Style the topnav links */
+.topnav a {
+  font-weight: bold;
+  font-size: 18px;
+  float: center;
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #888;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.card h2, h3, a {
+  text-decoration: underline;
+  color: black;
+}
+
+.img_thumbnail {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 250px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- TITLE AND SUBTITLE -->
+<div class="header">
+    <h1>{{ site.title }}</h1>
+    <h4>{{ site.subtitle }}</h4>
+</div>
+
+<!-- NAVIGATION BAR -->
+<div class="topnav">
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+      {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+            <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+</div>
+
+
+<div class="row">
+  <div class="leftcolumn">
+
+    <!-- LATEST POST COLLECTION -->
     {%- for post in site.categories.c_programming -%}
-
-
-    <img class="imgleft" src="{{site.url}}/resources/images/{{ post.thumbnail }}" style="width:150px">
-    <li>
-        <a href="{{ post.url | relative_url }}">📝 {{ post.title | escape }}</a>
-    </li>
-
-    <br>
-      
-    {{ post.resume }}
+      <div class="card">
+          <h2>{{ post.title }}</h2>
+          <h5>By {{post.author}} on {{ post.date | date: '%B %d, %Y' }}</h5>
+          <img class="img_thumbnail" src="{{ site.url }}/resources/thumbnails/{{post.thumbnail}}">
+          <p>
+              {{ post.resume }} <a href="{{ post.url }}">Read more...</a>
+          </p>
+       </div>
     {%- endfor -%}
-  </ul>
-{%- endif -%}
+   </div>
+
+  <!-- RIGHT LATERAL COLUMN PANEL -->
+  <div class="rightcolumn">
+
+    <!-- SHORT ABOUT SECTION -->
+    <div class="card">
+      <h3>📰 Notices</h3>
+      <div>
+          {%- for notice in site.notices -%}
+          <p>📌 {{ notice }}<br></p>
+          {%- endfor -%}
+      </div> 
+    </div>
+
+    <!-- RECOMMENDED BOOKS SECTION -->
+    <div class="card">
+      <h3>🔗 Interesting links</h3>
+      <div>
+          {%- for link in site.interesting_links -%}
+          <p>⭐ {{ link }}<br></p>
+          {%- endfor -%}
+      </div> 
+    </div>
+
+    <!-- SOCIAL MEDIA SECTION -->
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+    <h4>{{ site.footer }}</h4>
+</div>
+
+</body>

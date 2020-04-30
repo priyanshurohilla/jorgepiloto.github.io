@@ -1,0 +1,26 @@
+#main_container {
+    /* Bautiful courier/typewriter font */
+    font-family: "Courier New";
+}
+
+
+#lateral_block {
+  float: left;
+  width: 15%;
+}
+#content {
+  float: left;
+  width: 85%;
+}
+#content #main {
+  float: left;
+  width: 80%;
+}
+#content #other {
+  float: left;
+  width: 20%;
+}
+
+#pie {
+  clear: both;
+}

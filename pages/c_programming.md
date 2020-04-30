@@ -1,5 +1,5 @@
 ---
-title: C programming 💾
+title: C PROGRAMMING 💾
 layout: c_programming
 permalink: c_programming
 ---

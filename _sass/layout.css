@@ -1,0 +1,9 @@
+/* HOLDS WEBSITE LAYOUT */
+
+/**
+ * Defines global properties for the mother layout
+ */
+#main_container {
+    /* Similar typewriter font */
+    font-family: "Courier New";
+}
