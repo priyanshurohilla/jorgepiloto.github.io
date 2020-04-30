@@ -4,16 +4,34 @@
 #
 
 # Main website properties
-title: "On-orbit 🛰️"
+title: "On-orbit 🚀"
+subtitle: "A website for research software developers"
 author: "Jorge M.G."
+
+# Notices section
+notices:
+  - "Due to final exams, my activity related to open-source software will decay during a few weeks."
+  - <a href="https://2020.es.pycon.org/">PyConES'20 cancelled because of pandemic situation.</a>
+  - <a href="https://www.cosmos.esa.int/web/spice/training">ESAC SPICE is also cancelled.</a>
+
+# Recommended books
+interesting_links:
+  - "GNU" 
+  - <a href="https://ntrs.nasa.gov/search.jsp">NASA NTRS</a>
+  - <a href="https://www.sci-hub.tw/">SciHub</a>
+
+
+
+
 
 # Pages to be included in website's menu
 header_pages:
   - index.md
   - pages/c_programming.md
+  - pages/journal.md
   - pages/about.md
 
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: 'Author: Jorge Martinez'
 
 style: light # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
