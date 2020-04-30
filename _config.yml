@@ -1,7 +1,13 @@
 # Example Site settings
 
 #google_analytics: UA-NNNNNNNN-N
+#
 
+# Main website properties
+title: "On-orbit 🛰️"
+author: "Jorge M.G."
+
+# Pages to be included in website's menu
 header_pages:
   - index.md
   - pages/c_programming.md
