@@ -8,27 +8,36 @@ title: "On-orbit 🚀"
 subtitle: "A website for research software developers"
 author: "Jorge M.G."
 
+# Abstract section
+abstract: 
+    - "My name is Jorge and I am the author of this website. Some months ago I
+      decided to buy a domain in order to get a more professional and good
+      looking email adress."
+
+    - "If you find any errata or just want to contact me, please send a clean
+      and plain-text email to jorge@on-orbit.dev. For more information about me
+      or my projects, please refer to corresponding section in the upper
+      navigation bar."
+
 # Notices section
 notices:
   - "Due to final exams, my activity related to open-source software will decay during a few weeks."
-  - <a href="https://2020.es.pycon.org/">PyConES'20 cancelled because of pandemic situation.</a>
-  - <a href="https://www.cosmos.esa.int/web/spice/training">ESAC SPICE is also cancelled.</a>
+  - "PyConES'20 cancelled because of pandemic situation."
+  - "ESAC SPICE training has been also cancelled for the same previous reason."
 
 # Recommended books
 interesting_links:
-  - "GNU" 
-  - <a href="https://ntrs.nasa.gov/search.jsp">NASA NTRS</a>
-  - <a href="https://www.sci-hub.tw/">SciHub</a>
-
-
-
-
+  - "Still working on this section..."
 
 # Pages to be included in website's menu
 header_pages:
   - index.md
-  - pages/c_programming.md
+  - pages/programming.md
+  - pages/books.md
+  - pages/projects.md
+  - pages/flight_simulators.md
   - pages/journal.md
+  - pages/cv.md
   - pages/about.md
 
 footer: 'Author: Jorge Martinez'

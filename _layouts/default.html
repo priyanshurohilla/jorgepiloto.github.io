@@ -161,7 +161,7 @@ p {
     <!-- LATEST POST COLLECTION -->
     {%- for post in site.posts -%}
       <div class="card">
-          <h2>{{ post.title }}</h2>
+          <h2>📝 {{ post.title }}</h2>
           <h5>By {{post.author}} on {{ post.date | date: '%B %d, %Y' }}</h5>
           <img class="img_thumbnail" src="{{ site.url }}/resources/thumbnails/{{post.thumbnail}}">
           <p>
@@ -174,12 +174,22 @@ p {
   <!-- RIGHT LATERAL COLUMN PANEL -->
   <div class="rightcolumn">
 
+    <!-- PHILOSOPHY RESEARCH -->
+    <div class="card">
+      <h3>📝 Welcome reader! </h3>
+      <div>
+          {%- for abstract_point in site.abstract -%}
+          <p>{{ abstract_point }}</p>
+          {%- endfor -%}
+      </div> 
+    </div>
+
     <!-- SHORT ABOUT SECTION -->
     <div class="card">
       <h3>📰 Notices</h3>
       <div>
           {%- for notice in site.notices -%}
-          <p>📌 {{ notice }}<br></p>
+          <p>📌 {{ notice }}</p>
           {%- endfor -%}
       </div> 
     </div>

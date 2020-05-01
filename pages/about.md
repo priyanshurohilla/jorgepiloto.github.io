@@ -4,7 +4,7 @@ layout: page
 permalink: about
 ---
 
-<img class="imgleft" align="right" src="/resources/images/me_about.jpeg" style="width:250px; margin-left: 20px;">
+<img class="imgleft" align="left" src="/resources/images/me.png" style="width:250px; margin-right: 20px;">
 
 My name is Jorge Martínez Garrido and I am an undergraduate aerospace engineer.
 After starting my degree I became interested in scientific computing applied to
@@ -30,7 +30,7 @@ tools and good code practices. Finally, the project participated in the [Google
 Summer of Code 2019](https://summerofcode.withgoogle.com/) for which I was one
 the selected students. I am in debt with you, Juanlu!
 
-<img class="imgright" src="resources/images/orbital/porkchop.png" align="left" style="width:450px; margin-right: 20px;">
+<img class="imgright" src="resources/images/orbital/porkchop.png" align="right" style="width:450px; margin-left: 20px;">
 
 While working for the GSOC'19, I meet David Criado and Laura González at the
 first [Space Generation Advisory Councild](https://spacegeneration.org/) hosted
