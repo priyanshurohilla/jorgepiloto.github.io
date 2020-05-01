@@ -41,3 +41,8 @@ this.
 
 In the post you will learn about the Reproducible Research Manifesto and
 which tools you can make use to protect but also good-sharing your papers.
+
+## Research software development
+
+Nowadays, there are a bunch of well known software for doing almost everything
+you require: FEM or CFD analysis, CAD design, IDEs...

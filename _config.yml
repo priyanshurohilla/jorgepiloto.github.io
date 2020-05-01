@@ -23,16 +23,11 @@ abstract:
 notices:
   - "Due to final exams, my activity related to open-source software will decay during a few weeks."
   - "PyConES'20 cancelled because of pandemic situation."
-  - "ESAC SPICE is also cancelled."
+  - "ESAC SPICE training has been also cancelled for the same previous reason."
 
 # Recommended books
 interesting_links:
-  - "https://pybonacci.org/"
-  - "https://pybonacci.org/"
-
-
-
-
+  - "Still working on this section..."
 
 # Pages to be included in website's menu
 header_pages:
@@ -40,6 +35,7 @@ header_pages:
   - pages/programming.md
   - pages/books.md
   - pages/projects.md
+  - pages/flight_simulators.md
   - pages/journal.md
   - pages/cv.md
   - pages/about.md
