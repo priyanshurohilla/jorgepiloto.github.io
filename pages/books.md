@@ -4,7 +4,7 @@ layout: page
 permalink: books
 ---
 
-I love books, specially those related to science content. Although most of my
+I love books, especially those related to science content. Although most of my
 readings at the end of the day are related to technical content, sometimes I
 like to read literature ones. In addition, phylosophy is another topic I
 sometimes like to read about.
