@@ -159,9 +159,9 @@ p {
   <div class="leftcolumn">
 
     <!-- LATEST POST COLLECTION -->
-    {%- for post in site.categories.c_programming -%}
+    {%- for post in site.categories.programming -%}
       <div class="card">
-          <h2>{{ post.title }}</h2>
+          <h2>📝 {{ post.title }}</h2>
           <h5>By {{post.author}} on {{ post.date | date: '%B %d, %Y' }}</h5>
           <img class="img_thumbnail" src="{{ site.url }}/resources/thumbnails/{{post.thumbnail}}">
           <p>
